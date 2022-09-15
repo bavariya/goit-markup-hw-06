@@ -400,11 +400,16 @@
           </ul>
         </div>
         <form class="form-subscribe" name="subscribe" autocomplete="on" novalidate>
-          <p>Підпишіться на розсилку</p>
+          <p class="form-title">Підпишіться на розсилку</p>
           <label>
-            <input type="email" name="email-subscribe" placeholder="E-mail">
+            <input type="email" name="email-subscribe" placeholder="E-mail" class="subs-field">
           </label>
-          <button type="submit">Підписатися</button>
+
+          <button type="submit" class="subs-button"><span class="subs-group">Підписатися <svg width="20" height="20">
+              <use href="./images/svg/icons.svg#send"></use>
+            </svg></span>
+          </button>
+
         </form>
       </div>
     </div>
